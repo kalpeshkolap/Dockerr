@@ -15,11 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <repository>
-     <id>nexus</id>
-     <name>nexus-releases</name>
-     <url>http://34.214.67.55:8081/repository/maven_t//</url>
-  </repository>
+  <repositories>
+	  <repository>
+	     <id>nexus</id>
+	     <name>nexus-releases</name>
+	     <url>http://34.214.67.55:8081/repository/maven_t//</url>
+	  </repository>
+  </repositories>
   <distributionManagement>
       <repository>
 	  <id>nexus</id>
